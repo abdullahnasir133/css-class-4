@@ -1,0 +1,33 @@
+<!--transition transition property transition duration transsition dillay transition timing function-->
+<html>
+    <head>
+        <title>transition in css</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            #box{
+                width: 150px;
+                height: 150px;
+                background: pink;
+               /* 
+                transition: width,height,background,2s,2s,2s;
+                unit and discription also in vedio
+                transition: all 2s;*/
+                transition-property: width,height ,background;
+                transition-duration: 2s;
+                transition-timing-function: linear;
+
+            }
+            #box:hover{
+                width: 300px;
+                height: 300px;
+                background: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Transition</h1>
+        <div id="box"></div>
+    </body>
+</html>

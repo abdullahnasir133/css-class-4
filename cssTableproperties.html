@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Css table properties</title>
+        <style>
+          body{
+            font-family: Arial, Helvetica ;
+          }
+          table{
+            border-spacing: 10px;
+            width: 300px;
+            border-collapse: collapse;
+            table-layout: auto ;
+            empty-cells: hide;
+            }
+          table, td, th{
+            border: 2px solid #000;
+          }
+          td{
+            vertical-align: top;
+          }
+          caption{
+            caption-side: top;
+          }
+          tr:hover{
+            background: pink;
+          }
+          tr:nth-child(even){
+            background: yellow;
+          }
+        </style>
+    </head>
+    <body>
+        <h1>CSs table properties</h1>
+        <table>
+            <caption>Employee record</caption>
+            <tr>
+                <th>Firstname abdullah is the great man</th>
+                <th>Lastname</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>Mohan</td>
+                <td>Kumar</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Salim</td>
+                <td>khan</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Inder</td>
+                <td>Singh</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>petar</td>
+                <td>Brown</td>
+                <td>$250</td>
+            </tr>
+        </table>
+    </body>
+</html>
